@@ -44,7 +44,7 @@ namespace Demoshoalbackend
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Demoshoalbackend v1"));
             }
 
-            app.UseHttpsRedirection();
+    
 
             app.UseRouting();
 
